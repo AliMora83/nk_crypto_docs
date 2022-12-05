@@ -1,5 +1,6 @@
 import React from 'react'
 import BankCard from './bankCard'
+import FAQ from './faq'
 import FoodCard from './foodCard'
 import IndieCard from './indieCard'
 import RetailCard from './retailCard'
@@ -38,7 +39,7 @@ function Started({}: Props) {
                   Represent the key characteristics of real users, focusing on behavior, thought patterns, and motivation.</p>
                   <Table01 />
                   <br />
-                  <Tabs />
+                  <FAQ />
                   <br />
                   <div className='flex flex-row items-center'>
                   <IndieCard />
