@@ -10,7 +10,7 @@ type Props = {}
 
 export default function Corp({}: Props) {
   return (
-    <div>
+    <div className='bg-gray-50'>
         <Navmenu />
         <BannerCorp />
         <Corpo />

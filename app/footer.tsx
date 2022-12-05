@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="my-5 flex justify-center w-4xl">
+    <div className="mt-16 pb-10 flex justify-center w-4xl">
 <footer className="p-4 align-middle rounded-lg shadow-md md:flex md:items-center md:justify-between md:p-6 bg-gray-800 content-center space-x-16">
     <span className="text-sm pr-10 text-gray-500 sm:text-center dark:text-gray-400"> All Rights Reserved © 2022 <a href="openmindi.co.za" className="hover:underline">NAMKA™</a>
     </span>

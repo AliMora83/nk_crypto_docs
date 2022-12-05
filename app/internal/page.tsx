@@ -8,7 +8,7 @@ type Props = {}
 
 export default function Internal({}: Props) {
   return (
-    <div>
+    <div className='bg-gray-50'>
         <Navmenu />
         <BannerInt />
         <Internals />

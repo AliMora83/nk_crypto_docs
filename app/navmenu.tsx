@@ -53,7 +53,8 @@ export default function Navmenu({}: Props) {
                   <br />
                   <a className='a' rel="noopener noreferrer" href="#timeline">Timeline</a>
                   <div className="space-y-1 pt-10">
-                    <p className='text-xs text-gray-600'>v.0.1.02</p>
+                    <a href="style">
+                    <p className='a text-xs text-gray-600'>v.0.1.02</p></a>
                     <p className='text-xs text-gray-600'>30 Nov 2022</p>
                     <a href="https://alimora-portfolio.vercel.app/" target="_blank">
                     <p className='a text-xs text-gray-600'>Ali Mora</p>

@@ -8,7 +8,7 @@ type Props = {}
 
 export default function User({}: Props) {
   return (
-    <div>
+    <div className='bg-gray-50'>
         <Navmenu />
         <BannerUser />
         <Users />

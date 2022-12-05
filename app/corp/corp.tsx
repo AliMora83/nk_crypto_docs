@@ -7,64 +7,68 @@ function Corpo({}: Props) {
   return (
     <div className='mb-10'>
         <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='addToWeb'>
-                  <h4 className='pt-10 text-gray-800 font-semibold'>
-                     Corporate use
-                  </h4>
-                  <h1 className='pt-5 pb-5 text-2xl text-gray-800 font-bold uppercase'>
+        <p className='mb-2 text-sm pt-16 text-[#caa969] 
+        font-light tracking-wider uppercase '>
+                   <span className='font-bold text-[#caa969]'>03.</span> Corporate Guide</p>
+                  <h1 className=''>
                      How to add it to your website?
                   </h1>
-                  <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vitae cum. Vitae necessitatibus optio eum totam perspiciatis soluta delectus voluptatem ratione, maiores quam architecto ea nulla repellendus fuga nemo esse corporis! Molestias a, atque exercitationem ad alias eius expedita harum debitis non consequuntur maiores illum quibusdam placeat eos velit tenetur, ipsum asperiores labore? Rem blanditiis adipisci ab natus provident quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  <p className='w-4/5'>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vitae cum. Vitae necessi a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
                   <br />
-                  <section className="py-6 dark:bg-gray-800 my-20">
-                     <div className="container flex flex-col justify-center p-4 mx-auto">
-                        <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2">
-                           <img className="object-cover w-full dark:bg-gray-500 aspect-square" src="thirdweb.png" />
-                           <img className="object-cover w-full dark:bg-gray-500 aspect-square" src="thirdweb.png" />
-                           <img className="object-cover w-full dark:bg-gray-500 aspect-square" src="thirdweb.png" />
-                           <img className="object-cover w-full dark:bg-gray-500 aspect-square" src="thirdweb.png" />
-                        </div>
-                     </div>
-                  </section>
-                  <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vitae cum. Vitae necessitatibus optio eum totam perspiciatis soluta delectus voluptatem ratione, maiores quam architecto ea nulla repellendus fuga nemo esse corporis! Molestias a, atque exercitationem ad alias eius expedita harum debitis non consequuntur maiores illum quibusdam placeat eos velit tenetur, ipsum asperiores labore? Rem blanditiis adipisci ab natus provident quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  <hr />
+                  <h4 className=''>
+                     Corporate use
+                  </h4>
+     
+                  <p className='w-4/5'>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis desdent quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
                   </div>
+                  <br />
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='hero'>
-                  <h4 className='pt-20 pb-5 text-gray-800 font-semibold'>
+                     <hr />
+                  <h4 className=''>
                      Add hero banner
                   </h4>
-                  <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vitae cum. Vitae necessitatibus optio eum totam perspiciatis soluta delectus voluptatem ratione, maiores quam architecto ea nulla repellendus fuga nemo esse corporis! Molestias a, atque exercitationem ad alias eius expedita harum debitis non consequuntur maiores illum quibusdam placeat eos velit tenetur, ipsum asperiores labore? Rem blanditiis adipisci ab natus provident quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  <p className='w-4/5'>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vitae cum. Vitae necessitatibus optio eum totam perspiciatis soluta delectio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
                   </div>
                      {/* <Stats /> */}
-
+                  <br />
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='cta'>
-                  <h4 className='pt-20 pb-5 text-gray-800 font-semibold'>
+                     <hr />
+                  <h4 className=''>
                      Add call to action
                   </h4>
-                  <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vitae cum. Vitae necessitatibus optio eum totam perspiciatis soluta delectus voluptatem ratione, maiores quam architecto ea nulla repellendus fuga nemo esse corporis! Molestias a, atque exercitationem ad alias eius expedita harum debitis non consequuntur maiores illum quibusdam placeat eos velit tenetur, ipsum asperiores labore? Rem blanditiis adipisci ab natus provident quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  <p className='w-4/5'>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaqde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
                   </div>
+                  <br />
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='web3'>
-                  <h4 className='pt-20 pb-5 text-gray-800 font-semibold'>
+                     <hr />
+                  <h4 className=''>
                      Connect to web3
                   </h4>
-                  <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vitae cum. Vitae necessitatibus optio eum totam perspiciatis soluta delectus voluptatem ratione, maiores quam architecto ea nulla repellendus fuga nemo esse corporis! Molestias a, atque exercitationem ad alias eius expedita harum debitis non consequuntur maiores illum quibusdam placeat eos velit tenetur, ipsum asperiores labore? Rem blanditiis adipisci ab natus provident quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  <p className='w-4/5'>
+                  Lorem ipsum dolor, sit ameident quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
                   </div>
+                  <br />
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='whitelabel'>
-                  <h4 className='pt-20 pb-5 text-gray-800 font-semibold'>
+                     <hr />
+                  <h4 className=''>
                      Whitelabel Requirements
                   </h4>
-                  <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vitae cum. Vitae necessitatibus optio eum totam perspiciatis soluta delectus voluptatem ratione, maiores quam architecto ea nulla repellendus fuga nemo esse corporis! Molestias a, atque exercitationem ad alias eius expedita harum debitis non consequuntur maiores illum quibusdam placeat eos velit tenetur, ipsum asperiores labore? Rem blanditiis adipisci ab natus provident quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  <p className='w-4/5'>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
                   </div>
+                  <br />
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='troubleshooting'>
-                  <h4 className='pt-20 pb-5 text-gray-800 font-semibold'>
+                     <hr />
+                  <h4 className=''>
                   Troubleshooting
                   </h4>
-                  <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vitae cum. Vitae necessitatibus optio eum totam perspiciatis soluta delectus voluptatem ratione, maiores quam architecto ea nulla repellendus fuga nemo esse corporis! Molestias a, atque exercitationem ad alias eius expedita harum debitis non consequuntur maiores illum quibusdam placeat eos velit tenetur, ipsum asperiores labore? Rem blanditiis adipisci ab natus provident quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  <p className='w-4/5'>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserut quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
                   </div>
                   
     </div>

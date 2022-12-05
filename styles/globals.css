@@ -49,7 +49,7 @@
     }
 
     p {
-    @apply text-sm text-gray-500 font-sans pl-3
+    @apply text-sm text-gray-500 font-sans pl-3 my-2
     }
 
     li {
@@ -61,21 +61,37 @@
     }
 
     .dark {
-    @apply text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2
+    @apply text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-4 py-2 mr-2 mb-2
     }
 
     .light {
-    @apply text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 
+    @apply text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-xs px-4 py-2 mr-2 mb-2 
     }
 
     .gradient {
-    @apply text-white bg-gradient-to-br from-[#264d62] to-[#080a0b] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 
+    @apply text-white bg-gradient-to-br from-[#264d62] to-[#080a0b] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-4 py-2 mr-2 mb-2 
     }
 
     .heroButton {
         @apply px-4 py-2 border border-[#242424] rounded-full uppercase text-xs
         tracking-widest text-gray-500 transition-all hover:border-[#caa969]
         hover:text-gray-200 hover:scale-90
+    }
+
+    .code_gray {
+    @apply text-black text-xs bg-gray-200 p-2 rounded-md
+    }
+
+    .code_wit {
+    @apply text-xs text-gray-200 pl-3
+    }
+
+    .pre_black {
+    @apply p-2 bg-[#242424] rounded-md w-4/5 my-3 ml-3 shadow-md
+    }
+
+    .reminder {
+    @apply text-gray-400 font-semibold text-center text-xs bg-gray-100 w-36 p-2 rounded-md
     }
     
 }
