@@ -39,7 +39,7 @@ function Started({}: Props) {
                   Represent the key characteristics of real users, focusing on behavior, thought patterns, and motivation.</p>
                   <Table01 />
                   <br />
-                  <FAQ />
+                  {/* <FAQ /> */}
                   <br />
                   <div className='flex flex-row items-center'>
                   <IndieCard />
