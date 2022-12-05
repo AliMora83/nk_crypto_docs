@@ -1,13 +1,6 @@
 import React from 'react'
-import BankCard from './bankCard'
-import FAQ from './faq'
-import FoodCard from './foodCard'
+import Feat from './feat'
 import IndieCard from './indieCard'
-import RetailCard from './retailCard'
-import Table01 from './table'
-import Tabs from './tabs'
-// import Stats from './stats'
-// import Toggle from './toggle'
 
 type Props = {}
 
@@ -28,7 +21,7 @@ function Started({}: Props) {
                   <p className='w-4/5'>
                      It is a Lottery Draw developed on the Blockchain. You may buy up to 10 tickets to enter the draw. One random ticket will be notified of winning! They may withdraw immediately. It is a game whose victory or failure is lead by probability.
                   </p>
-
+                   
                   <br/>
                   <hr />
                   <h4 className=''>User personas</h4>
@@ -37,9 +30,7 @@ function Started({}: Props) {
                      <br />
                   <p className='w-4/5'>
                   Represent the key characteristics of real users, focusing on behavior, thought patterns, and motivation.</p>
-                  <Table01 />
-                  <br />
-                  {/* <FAQ /> */}
+                
                   <br />
                   <div className='flex flex-row items-center'>
                   <IndieCard />
@@ -65,7 +56,9 @@ function Started({}: Props) {
                      Feautures
                   </h4>
                   <p className='w-4/5'>
-                  The UX style guide is a document that includes the design patterns for the future product. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea?  odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  The UX style guide is a document that includes the design patterns for the future product. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias.</p>
+                  <br />
+                  <Feat />
                   <br />
                   <p className='w-4/5'>The most common documents produced at these stages are:</p>
                   <ul className='list-disc list-inside space-y-2 mt-2 pl-5'>

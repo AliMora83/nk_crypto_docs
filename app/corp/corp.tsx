@@ -1,5 +1,6 @@
 import React from 'react'
-// import Stats from './stats'
+import Banner01 from './banner01'
+import Hero01 from './hero01'
 
 type Props = {}
 
@@ -32,8 +33,9 @@ function Corpo({}: Props) {
                   </h4>
                   <p className='w-4/5'>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vitae cum. Vitae necessitatibus optio eum totam perspiciatis soluta delectio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  <br />
+                     <Hero01 />
                   </div>
-                     {/* <Stats /> */}
                   <br />
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='cta'>
                      <hr />
@@ -42,6 +44,8 @@ function Corpo({}: Props) {
                   </h4>
                   <p className='w-4/5'>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaqde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                     <br />
+                     <Banner01 />
                   </div>
                   <br />
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='web3'>
@@ -49,8 +53,16 @@ function Corpo({}: Props) {
                   <h4 className=''>
                      Connect to web3
                   </h4>
-                  <p className='w-4/5'>
-                  Lorem ipsum dolor, sit ameident quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  <div className='flex flex-row'>
+                  <img className='m-10 h-60 rounded-lg shadow-lg' src="log_in.png" alt="" />
+                  <div className='m-10 p-10 h-60 w-80 border-gray-100 border rounded-2xl hover:bg-slate-50 hover:shadow duration-150 ease-out'>
+                        <div className='space-y-1'>
+                           <h4>Select Web3 Wallet</h4>
+                           <p className='text-xs text-gray-500 font-sans'>Select the Web3 Wallet you created. Itaqde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt.</p>
+                        </div>
+                     </div>
+                  </div>
+                  
                   </div>
                   <br />
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='whitelabel'>

@@ -25,9 +25,9 @@ export default function Style01({}: Props) {
                   <button className='light'>Click here</button>
                   <button className='gradient'>Click here</button>
 
-              
-
                   <br/>
+                  <code className='code_gray'>Add correct FAQ code</code>
+
              
                   <hr />
                   <h4>Heading Style h4</h4>

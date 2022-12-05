@@ -25,10 +25,9 @@ export default function Navmenu({}: Props) {
                 <Link href="user">
                 <h2 className="text-sm font-semibold tracking-widest uppercase dark:text-gray-400">User Guide</h2></Link>
                 <div className="flex flex-col space-y-1">
-                  <a className='a' rel="noopener noreferrer" href="#visit">Visit us</a>
-                  <a className='a' rel="noopener noreferrer" href="#info">Browse Info</a>
-                  <a className='a' rel="noopener noreferrer" href="#draw">Go to Draw</a>
-                  <a className='a' rel="noopener noreferrer" href="#check">Check Winnings</a>
+                  <a className='a' rel="noopener noreferrer" href="#how">How to use it</a>
+                  <a className='a' rel="noopener noreferrer" href="#video">Watch video</a>
+                  <a className='a' rel="noopener noreferrer" href="#step">Follow Steps</a>
                   <a className='a' rel="noopener noreferrer" href="#faq">FAQ's</a>
                 </div>
               </div>
