@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner01 from '../corp/banner01'
 import FAQ from '../start/faq'
+import IndieCard from '../start/indieCard'
 import Video_01 from './video_01'
 
 type Props = {}
@@ -48,8 +49,41 @@ function Users({}: Props) {
                </ul>
                </div>
             </div>
+                  
+                  <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto mt-20" id='faq'>
+                  <hr />
+                  <h4 className=''>User personas</h4>
+                  <p className='w-4/5'>The purpose is to help Individuals, Organisations, and Groups, to host their own Draw Events to raise funds independantly.
+                  A winner is selected every 3 days. Communities and NPO's may apply directly to you for funding.</p>
+                     <br />
+                  <p className='w-4/5'>
+                  Represent the key characteristics of real users, focusing on behavior, thought patterns, and motivation.</p>
+                
+                  <br />
+                  <div className='flex flex-row items-center'>
+                  <IndieCard />
+                     <div className='m-10 p-10 h-64 w-80 border-gray-100 border rounded-2xl hover:bg-slate-50 hover:shadow duration-150 ease-out'>
+                        <div className='space-y-1'>
+                           <h4>Use Case Scenario</h4>
+                           <p className='text-xs text-gray-500 font-sans'>Represent the key characteristics of real users, focusing on behavior, thought patterns, and motivation.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <br />
+
+                  <p className='w-4/5'>
+                  User scenarios focus on what a user will do, rather than outlining the thought process. Vitae necessitatibus optio eum totam perspiciatis soluta delectus voluptatem ratione, maiores quam architecto ea nulla repellendus fuga nemo esse corporis! Molestias a, atque exercitationem.</p>
+                  <br />
+                  <p className='w-4/5'>
+                  The main purpose of a scenario map is to depict all the possible scenarios for every single function. Vitae necessitatibus optio eum totam perspiciatis soluta delectus voluptatem ratione, maiores quam architecto ea nulla repellendus fuga nemo esse corporis! Molestias a, atque exercitationem.</p>
+                  </div>
+
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto mt-20" id='faq'>
                      <FAQ />
+                  </div>
+                  <br />
+                  <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='features'>
+               
                   </div>
     </div>
   )
