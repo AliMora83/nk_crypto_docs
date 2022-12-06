@@ -6,13 +6,14 @@ import Users from './user'
 
 type Props = {}
 
-export default function User({}: Props) {
+export default function User({ }: Props) {
   return (
     <div className='bg-gray-50'>
-        <Navmenu />
-        <BannerUser />
-        <Users />
-        <Footer />
+      <Navmenu />
+      <BannerUser />
+      <Users />
+
+      <Footer />
     </div>
   )
 }

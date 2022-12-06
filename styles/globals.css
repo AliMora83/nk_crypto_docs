@@ -93,5 +93,9 @@
     .reminder {
     @apply text-gray-400 font-semibold text-center text-xs bg-gray-100 w-36 p-2 rounded-md
     }
+
+    .scrollspy-example {
+    @apply h-52 relative overflow-auto
+    }
     
 }
