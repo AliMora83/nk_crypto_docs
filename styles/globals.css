@@ -25,7 +25,7 @@
         }
 
     h2 {
-        @apply uppercase text-[#6a6a6c] text-lg font-mont font-semibold
+        @apply uppercase text-[#1c2123] text-sm font-mont font-semibold
         }
     
     h3 {
@@ -87,7 +87,7 @@
     }
 
     .pre_black {
-    @apply p-2 bg-[#242424] rounded-md w-4/5 my-3 ml-3 shadow-md
+    @apply p-2 bg-[#242424] rounded-md w-4/5 ml-3 shadow-md
     }
 
     .reminder {
