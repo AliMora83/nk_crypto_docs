@@ -12,7 +12,6 @@ export default function User({ }: Props) {
       <Navmenu />
       <BannerUser />
       <Users />
-
       <Footer />
     </div>
   )

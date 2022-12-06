@@ -1,5 +1,5 @@
 import React from 'react'
-import Video_01 from '../user/video_01'
+// import Video_01 from '../user/video_01'
 import Feat from './feat'
 import IndieCard from './indieCard'
 
@@ -23,7 +23,8 @@ function Started({}: Props) {
                      It is a Lottery Draw developed on the Blockchain. You may buy up to 10 tickets to enter the draw. One random ticket will be notified of winning! They may withdraw immediately. It is a game whose victory or failure is lead by probability.
                   </p>
                    <br />
-                   <Video_01 />
+                   <p className='reminder'>Add How-To video</p>
+                   {/* <Video_01 /> */}
                   <br/>
                   <hr />
                   
@@ -31,16 +32,28 @@ function Started({}: Props) {
                      Feautures
                   </h4>
                   <p className='w-4/5'>
-                  The UX style guide is a document that includes the design patterns for the future product. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias.</p>
+                  Here is a brief look at what an Ideal User is able to do on our platform. These are the basic, more features and fuctionalities will be added with future updates.</p>
                   <br />
                   <Feat />
                   <br />
-                  <p className='w-4/5'>The most common documents produced at these stages are:</p>
-                  <ul className='list-disc list-inside space-y-2 mt-2 pl-5'>
-                     <li>Create/Connect Web3 Wallet</li>
-                     <li>Collect Free Matic</li>
-                     <li>Play with Free Matic</li>
-                     <li>Win more Matic</li>
+                  <p className='w-4/5'>We aim to make the process as simple as possible:</p>
+                  
+                  <ul className='space-y-1 max-w-md list-inside text-gray-500 pl-10'>
+                     <li className='flex items-center'>
+                     <svg className="w-4 h-4 mr-1.5 text-[#caa969] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        Create/Connect Web3 Wallet</li>
+                        
+                     <li className='flex items-center'>
+                     <svg className="w-4 h-4 mr-1.5 text-[#caa969] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                       Collect Free Matic</li>
+
+                     <li className='flex items-center'>
+                     <svg className="w-4 h-4 mr-1.5 text-[#caa969] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                       Play with Free/Real</li>
+
+                     <li className='flex items-center'>
+                     <svg className="w-4 h-4 mr-1.5 text-[#caa969] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                       Withdraw Winnings</li>
                   </ul>
                   <br />
                
@@ -51,7 +64,8 @@ function Started({}: Props) {
                      Web3 Wallet
                   </h4>
                   <p className='w-4/5'>
-                  Follow tthis link to create a new Web3 Wallet. exercitationem ad alias eius expedita harum debitis non consequuntur maiores similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  Watch the video before you visit the link. <br/> Follow this link to create a new Web3 Wallet. </p>
+
                   <button className='dark'>Click here</button>
                   <p className='reminder'>Add How-To video</p>
                   </div>
@@ -62,7 +76,7 @@ function Started({}: Props) {
                      Free Matic
                   </h4>
                   <p className='w-4/5'>
-                  Click here to get Free Matic. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  Watch the video before you visit the link. <br/> Click here to get Free Matic. </p>
                   <button className='dark'>Click here</button>
                   <p className='reminder'>Add How-To video</p>
 
