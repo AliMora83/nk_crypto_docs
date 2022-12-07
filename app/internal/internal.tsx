@@ -172,11 +172,31 @@ function Internals({ }: Props) {
             <br />
             <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='support'>
                <hr />
-               <h4 className=''>
+               <h1 className=''>
                   Support
+               </h1>
+               <h4 className=''>
+                  Contact info
                </h4>
                <p className='w-4/5'>
-                  Lorem contact details and where to look for more information or assistance. Implement localization. People like getting information in their own language. So, take care ofaddress formats, and so on. nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  Our contact details and where to look for more information or assistance.</p>
+                  <small className='pl-5 text-gray-400 text-xs'>*add Contact card</small>
+               <br />
+
+            </div>
+
+            <br />
+            <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='settings'>
+               <hr />
+               <h1 className=''>
+                  Settings
+               </h1>
+               <h4 className=''>
+                  Admin Controls
+               </h4>
+               <p className='w-4/5'>
+                  Admin Wallet will have access to these Functions on the Blockchain back-end.</p>
+                  <small className='pl-5 text-gray-400 text-xs'>*add admin image</small>
                <br />
 
             </div>

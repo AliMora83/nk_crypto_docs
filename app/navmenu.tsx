@@ -49,6 +49,7 @@ export default function Navmenu({}: Props) {
                   <a className='a' rel="noopener noreferrer" href="#sdk">SDK Guide</a>
                   <a className='a' rel="noopener noreferrer" href="#api">API Guide</a>
                   <a className='a' rel="noopener noreferrer" href="#support">Support</a>
+                  <a className='a' rel="noopener noreferrer" href="#settings">Settings</a>
                   <br />
                   <a className='a' rel="noopener noreferrer" href="#timeline">Timeline</a>
                   <div className="space-y-1 pt-10">

@@ -22,7 +22,7 @@ export default function Timeline({}: Props) {
                                 <p className="mt-3">Pellentesque feugiat ante at nisl efficitur, in mollis orci scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
                             </div>
                             <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-[#caa969]">
-                                <h3 className="text-lg font-semibold tracking-wide">MVP Ready for testings</h3>
+                                <h3 className="text-lg font-semibold tracking-wide">MVP Ready for testing</h3>
                                 <time className="text-xs tracking-wide uppercase dark:text-gray-400">May 2022</time>
                                 <p className="mt-3">Morbi vulputate aliquam libero non dictum. Aliquam sit amet nunc ut diam aliquet tincidunt nec nec dui. Donec mollis turpis eget egestas sodales.</p>
                             </div>
