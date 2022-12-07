@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner01 from './banner01'
 import Hero01 from './hero01'
+import Slider_01 from './slider'
 
 type Props = {}
 
@@ -26,7 +27,9 @@ function Corpo({}: Props) {
                   <p className='w-4/5'>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vitae cum. Vitae necessitatibus optio eum totam perspiciatis soluta delectio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
                   <br />
-                     <Hero01 />
+                  <Hero01 />
+                  <Slider_01 />
+                  <br />
                   </div>
                   <br />
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='cta'>

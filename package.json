@@ -9,7 +9,9 @@
   "dependencies": {
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-compare-slider": "^2.2.0",
+    "react-dom": "18.2.0",
+    "react-image-comparison-slider": "^1.8.4"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
