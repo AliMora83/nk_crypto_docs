@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact01 from './contact'
 
 type Props = {}
 
@@ -158,6 +159,8 @@ function Internals({ }: Props) {
                      yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers
                   </code></pre>
 
+                  <a href="https://portal.thirdweb.com/sdk" className='text-xs m-10'>Read more about SDK</a>
+
             </div>
 
             <br />
@@ -167,7 +170,9 @@ function Internals({ }: Props) {
                   API Guide
                </h1>
                <p className='w-4/5'>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem reprehenderit ullam placeat quis deseruatus provident quibusdam dignissimos odit! Soluta ullam quisquam unde odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  Once we come to an agreement, you will have access to your own Web3 Contracts. We do advice that you have some development experience before making any changes.</p>
+
+                  <img src="third_api.png" alt="API" className='w-4/5 mt-5 rounded-md shadow-md' />
             </div>
             <br />
             <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='support'>
@@ -180,6 +185,7 @@ function Internals({ }: Props) {
                </h4>
                <p className='w-4/5'>
                   Our contact details and where to look for more information or assistance.</p>
+                  <Contact01 />
                   <small className='pl-5 text-gray-400 text-xs'>*add Contact card</small>
                <br />
 
