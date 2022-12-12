@@ -1,14 +1,17 @@
 "use client"
 import React from 'react'
 import { useState } from 'react';
+import Business from './comps/business';
+import Group from './comps/group';
+import Individual from './comps/individual';
 
 type Props = {}
 
-export default function Slider_01({ }: Props) {
+export default function Tabs({ }: Props) {
     const [activeTab, setActiveTab] = useState('tabs-homeVertical');
     return (
-        <div className='my-5 w-4/5'>
-            <div className="flex items-start">
+        <div className='my-5 bg-gray-100 py-10'>
+            <div className="flex items-center">
                 <ul className="nav nav-tabs flex flex-col flex-wrap list-none border-b-0 pl-0 mr-4" id="tabs-tabVertical"
                     role="tablist">
                     <li className="nav-item flex-grow text-center" role="presentation">
@@ -29,7 +32,7 @@ export default function Slider_01({ }: Props) {
         " id="tabs-home-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-homeVertical" role="tab"
                             aria-controls="tabs-homeVertical" aria-selected="true"
                             onClick={() => setActiveTab('tabs-homeVertical')}
-                            >Home</a>
+                        >Individual</a>
                     </li>
                     <li className="nav-item flex-grow text-center" role="presentation">
                         <a href="#tabs-profileVertical" className="
@@ -48,7 +51,7 @@ export default function Slider_01({ }: Props) {
         " id="tabs-profile-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-profileVertical" role="tab"
                             aria-controls="tabs-profileVertical" aria-selected="false"
                             onClick={() => setActiveTab('tabs-profileVertical')}
-                            >Profile</a>
+                        >Business</a>
                     </li>
                     <li className="nav-item flex-grow text-center" role="presentation">
                         <a href="#tabs-messagesVertical" className="
@@ -67,23 +70,26 @@ export default function Slider_01({ }: Props) {
         " id="tabs-messages-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-messagesVertical" role="tab"
                             aria-controls="tabs-messagesVertical" aria-selected="true"
                             onClick={() => setActiveTab('tabs-messagesVertical')}
-                            >Messages</a>
+                        >Groups</a>
                     </li>
                 </ul>
                 <div className="tab-content" id="tabs-tabContentVertical">
                     <div className="tab-pane fade show active" id="tabs-homeVertical" role="tabpanel"
-                        aria-labelledby="tabs-home-tabVertical" 
+                        aria-labelledby="tabs-home-tabVertical"
                         style={{ display: activeTab === 'tabs-homeVertical' ? 'block' : 'none' }}>
-                        Individual content vertical
+                        <h4>Individual content vertical</h4>
+                        <Individual />
                     </div>
                     <div className="tab-pane fade" id="tabs-profileVertical" role="tabpanel" aria-labelledby="tabs-profile-tabVertical"
-                    style={{ display: activeTab === 'tabs-profileVertical' ? 'block' : 'none' }}>
-                        Business content vertical
+                        style={{ display: activeTab === 'tabs-profileVertical' ? 'block' : 'none' }}>
+                        <h4>Business content vertical</h4>
+                        <Business />
                     </div>
                     <div className="tab-pane fade" id="tabs-messagesVertical" role="tabpanel"
                         aria-labelledby="tabs-profile-tabVertical"
                         style={{ display: activeTab === 'tabs-messagesVertical' ? 'block' : 'none' }}>
-                        Group content vertical
+                        <h4>Group content vertical</h4>
+                        <Group />
                     </div>
                 </div>
             </div>

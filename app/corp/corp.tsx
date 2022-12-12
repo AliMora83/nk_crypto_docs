@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner01 from './banner01'
 import Hero01 from './hero01'
-import Slider_01 from './slider'
+import Tabs from './tabs'
 import TroubleList from './troubleList'
 
 type Props = {}
@@ -30,7 +30,9 @@ function Corpo({}: Props) {
                   All A-list websites have a general structure. Working together, we design and uplaod new Hero Banners to promote the new offer either links them to your Web3 to play or to a learn more page on Web2 for more info on Web3 Wallets and connecting it.</p>
                   <br />
                   <Hero01 />
-                  <Slider_01 />
+                  <hr />
+                  <p>Click on each tab below, to view use case.</p>
+                  <Tabs />
                   <br />
                   </div>
                   <br />
