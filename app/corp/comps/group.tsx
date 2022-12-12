@@ -6,14 +6,16 @@ type Props = {}
 
 export default function Group({}: Props) {
     const images = [
-        { url: "/fnb_1a.png" },
-        { url: "/fnb_1b.png" },
-        { url: "/fnb_2a.png" },
-        { url: "/fnb_2b.png" },
+        { url: "/rugby_1a.jpg" },
+        { url: "/rugby_1b.jpg" },
+        { url: "/rugby_2a.jpg" },
+        { url: "/rugby_2b.jpg" },
+        { url: "/rugby_3a.jpg" },
+        { url: "/rugby_3b.jpg" },
       ];
   return (
     <div>
-        <p>Example of the Hero banner and 'Learn More' page update</p>
+        <p className='text-xs pb-2'>Here is an example of a local Sports Club with Web3 branding.</p>
         <div className='hover:shadow-lg shadow-md'>
               <SimpleImageSlider
         width={750}

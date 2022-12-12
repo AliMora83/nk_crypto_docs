@@ -13,7 +13,7 @@ export default function Business({}: Props) {
       ];
   return (
     <div>
-        <p>Example of the Hero banner and 'Learn More' page update</p>
+        <p className='text-xs pb-2'>Example of a Bank with our Hero banner and 'Learn More' page update</p>
         <div className='hover:shadow-lg shadow-md'>
               <SimpleImageSlider
         width={750}

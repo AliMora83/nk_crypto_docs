@@ -1,4 +1,5 @@
 import React from 'react'
+import Code_01 from './code/code_01'
 import Contact01 from './contact'
 
 type Props = {}
@@ -136,6 +137,9 @@ function Internals({ }: Props) {
 
             </div>
 
+            <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='api'>
+               <Code_01 />
+               </div>
             <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='api'>
                <hr />
                <h4>UI Components</h4>

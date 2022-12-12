@@ -97,5 +97,9 @@
     .scrollspy-example {
     @apply h-52 relative overflow-auto
     }
+
+    .code-container {
+    @apply border border-gray-400 p-10 text-sm text-red-600
+    }
     
 }
