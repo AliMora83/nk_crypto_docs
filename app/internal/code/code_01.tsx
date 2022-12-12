@@ -9,14 +9,13 @@ export default function Code_01({ }: Props) {
             <pre id="code-container" data-language="javascript" className='pre_black'>
                 <code className='code_wit'>
                     {`
-    import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
+    import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 
-    export const YourApp = () => {
-    const address = useAddress();
+    const App = () => {
     return (
-        <div>
-        <ConnectWallet />
-        </div>
+        <ThirdwebProvider desiredChainId={ChainId.Mainnet}>
+        <YourApp />
+        </ThirdwebProvider>
     );
     };
     `}

@@ -79,7 +79,7 @@
     }
 
     .code_gray {
-    @apply text-black text-xs bg-gray-200 p-2 rounded-md
+    @apply text-black text-xs bg-gray-200 px-2 py-1 rounded-md
     }
 
     .code_wit {

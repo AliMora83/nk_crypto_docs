@@ -54,17 +54,14 @@ function Internals({ }: Props) {
                <hr />
                <h4>Getting started</h4>
 
-               <p className='w-4/5'>Our SDK uses a Provider Pattern; meaning any component within the ThirdwebProvider will have access to the SDK. If you use the CLI to initialize your project, this is already set up for you.</p>
+               <p className='w-4/5'>Our SDK uses a Provider Pattern; meaning any component within the <code className='code_gray'>ThirdwebProvider</code> will have access to the SDK. If you use the CLI to initialize your project, this is already set up for you.</p>
                <p>Let's take a look at a typical setup:</p>
                <br />
-               <h2>Configure the ThirdwebProvider</h2>
-               <p className='w-4/5'>Specify the network your smart contracts are deployed to in the desiredChainId prop and wrap your application like this:</p>
+               <h4>Configure the <code className='code_gray'>ThirdwebProvider</code></h4>
+               <p className='w-4/5'>Specify the network your smart contracts are deployed to in the <code className='code_gray'>desiredChainId</code> prop and wrap your application like this:</p>
                <p className='font-semibold text-black pt-2'>App.jsx</p>
 
-               <pre className='pre_black'>
-                  <code className='code_wit'>
-                     yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers
-                  </code></pre>
+               <Code_01 />
 
             </div>
 
@@ -72,7 +69,7 @@ function Internals({ }: Props) {
                <hr />
                <h4>Connect to a User's Wallet</h4>
 
-               <p className='w-4/5'>Now the provider is set up, we can use all of the hooks and UI components available in the SDK, such as the ConnectWallet component.
+               <p className='w-4/5'>Now the provider is set up, we can use all of the hooks and UI components available in the SDK, such as the <code className='code_gray'>ConnectWallet</code> component.
                </p>
                <p className='w-4/5'>
                   Once the user has connected their wallet, all the calls we make to interact with contracts using the SDK will be on behalf of the user.</p>
@@ -80,94 +77,28 @@ function Internals({ }: Props) {
                <p className='font-semibold text-black pt-2'>ConnectMetamaskButton.jsx</p>
                <pre className='pre_black'>
                   <code className='code_wit'>
-                     yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers
+                     {`
+      import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
+
+      export const YourApp = () => {
+         const address = useAddress();
+         return (
+            <div>
+            <ConnectWallet />
+            </div>
+         );
+      };
+                     `}
                   </code></pre>
-               <p className='w-4/5'>The ConnectWallet component handles everything for us, including switching networks, accounts, displaying balances and more. <br /> We can then get the connected address using the useAddress hook anywhere in the app.</p>
+               <p className='w-4/5 pb-5'>The <code className='code_gray'>ConnectWallet</code> component handles everything for us, including switching networks, accounts, displaying balances and more. <br /> We can then get the connected address using the <code className='code_gray'> useAddress</code> hook anywhere in the app.</p>
 
             </div>
 
-            <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='api'>
-               <hr />
-               <h4>Interact With Contracts</h4>
-
-               <p className='w-4/5'>Connect to your smart contract using the useContract hook like this:
-               </p>
-
-               <p className='font-semibold text-black pt-2'>pages/index.jsx</p>
-               <pre className='pre_black'>
-                  <code className='code_wit'>
-                     yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers
-                  </code></pre>
-               <p className='w-4/5'>You can then use useContractRead and useContractWrite to read data and write transactions to the contract.
-               </p><p className='w-4/5'>
-                  You pass the contract object returned from useContract to these hooks as the first parameter and the name of the function (or view/mapping, etc.) on your smart contract as the second parameter. If your function requires parameters, you can pass them as additional arguments.
-               </p><p className='w-4/5'>
-                  For example, we can read the name of our contract like this:</p>
-              
-               <pre className='pre_black'>
-                  <code className='code_wit'>
-                     yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers
-                  </code></pre>
-
+            <hr className=''/>
+            <div className='pt-10 pb-10'>
+            <a href="https://portal.thirdweb.com/sdk" target="_blank" className='text-xs m-10 px-3 py-2 bg-slate-800 text-gray-300 rounded-md shadow-md hover:text-gray-100 hover:shadow-lg transition-all duration-200 ease-out'
+            >Read more about thirdweb SDK here</a>
             </div>
-
-            <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='api'>
-               <hr />
-               <h4>Using Extensions</h4>
-
-               <p className='w-4/5'>These hooks make it easy to interact with your smart contracts by implementing the complex logic for you under the hood.
-               </p>
-               <p className='w-4/5'>Each extension you implement in your smart contract unlocks new functionality in the SDK.
-               </p>
-               <p className='w-4/5'>For example, if your smart contract implements ERC721Supply, you unlock the ability to view all NFTs on that contract using the SDK; which fetches all of your NFT metadata and the current owner of each NFT in parallel. In the React SDK, that is available using useNFTs:
-               </p>
-
-               <p className='font-semibold text-black pt-2'>pages/index.jsx</p>
-               <pre className='pre_black'>
-                  <code className='code_wit'>
-                     yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers
-                  </code></pre>
-               <p className='w-4/5'>If we want to mint an NFT and our contract implements ERC721Mintable, we can use the useMintNFT hook to mint an NFT from the connected wallet; handling all of the logic of uploading and pinning the metadata to IPFS for us behind the scenes.
-               </p>
-              
-               <pre className='pre_black'>
-                  <code className='code_wit'>
-                     yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers
-                  </code></pre>
-
-            </div>
-
-            <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='api'>
-               <Code_01 />
-               </div>
-            <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='api'>
-               <hr />
-               <h4>UI Components</h4>
-
-               <p className='w-4/5'>The SDK provides many UI components to help you build your application.
-               </p>
-               <p className='w-4/5'>For example, we can render each of the NFTs using the NFT Media Renderer component, making use of the loading state from useNFTs:
-               </p>
-               <p className='font-semibold text-black pt-2'>pages/index.jsx</p>
-               <pre className='pre_black'>
-                  <code className='code_wit'>
-                     yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers
-                  </code></pre>
-               <p className='w-4/5'>The Web3Button component ensures the user has connected their wallet and is currently configured to the same network as your smart contract before calling the function. It also has access to the contract directly, allowing you to perform any action on your smart contract when the button is clicked.
-               </p>
-               <p className='w-4/5'>For example, we can mint an NFT like this:
-               </p>
-              
-               <pre className='pre_black'>
-                  <code className='code_wit'>
-                     yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers
-                  </code></pre>
-
-                  <a href="https://portal.thirdweb.com/sdk" className='text-xs m-10'>Read more about SDK</a>
-
-            </div>
-
-            <br />
             <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='api'>
                <hr />
                <h1 className=''>
@@ -176,7 +107,7 @@ function Internals({ }: Props) {
                <p className='w-4/5'>
                   Once we come to an agreement, you will have access to your own Web3 Contracts. We do advice that you have some development experience before making any changes.</p>
 
-                  <img src="third_api.png" alt="API" className='w-4/5 mt-5 rounded-md shadow-md' />
+               <img src="third_api.png" alt="API" className='w-4/5 mt-5 rounded-md shadow-md' />
             </div>
             <br />
             <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='support'>
@@ -189,8 +120,8 @@ function Internals({ }: Props) {
                </h4>
                <p className='w-4/5'>
                   Our contact details and where to look for more information or assistance.</p>
-                  <Contact01 />
-                  <small className='pl-5 text-gray-400 text-xs'>*add Contact card</small>
+               <Contact01 />
+               <small className='pl-5 text-gray-400 text-xs'>*add Contact card</small>
                <br />
 
             </div>
@@ -206,7 +137,7 @@ function Internals({ }: Props) {
                </h4>
                <p className='w-4/5'>
                   Admin Wallet will have access to these Functions on the Blockchain back-end.</p>
-                  <small className='pl-5 text-gray-400 text-xs'>*add admin image</small>
+               <small className='pl-5 text-gray-400 text-xs'>*add admin image</small>
                <br />
 
             </div>
