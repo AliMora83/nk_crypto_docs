@@ -21,12 +21,6 @@ export default function Home({}: Props) {
           <h2 className='doc_h4 text-base'>
               Namka <span className='text-white animate-pulse'>crypto</span> draw</h2>
         
-            <div className='pt-5'>
-                <Link href="start"><button className='heroButton'>Docs</button></Link>
-                <Link href="#"><button className='heroButton'>About</button></Link>
-                <Link href="#"><button className='heroButton'>Contact</button></Link>
-                
-            </div>
             </div>
             </div>
 </div>

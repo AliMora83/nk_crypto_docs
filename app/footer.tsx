@@ -8,12 +8,6 @@ export default function Footer() {
         <li>
             <a href="/" className="mr-4 hover:underline md:mr-6 ">Home</a>
         </li>
-        <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6 ">About</a>
-        </li>
-        <li>
-            <a href="#" className="hover:underline">Contact</a>
-        </li>
     </ul>
 </footer>
 

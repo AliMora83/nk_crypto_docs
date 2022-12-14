@@ -109,6 +109,20 @@ function Internals({ }: Props) {
 
                <img src="third_api.png" alt="API" className='w-4/5 mt-5 rounded-md shadow-md' />
             </div>
+          
+            <br />
+            <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='settings'>
+               <hr />
+               <h1 className=''>
+                  Settings
+               </h1>
+               <h4 className=''>
+                  Admin Controls
+               </h4>
+               <p className='w-4/5'>
+                  Admin Wallet will have access to these Functions on the Blockchain back-end.</p>
+                  <img src="/admin.png" alt="admin" className='rounded-lg ml-3 my-5 h-48 shadow-lg' />
+            </div>  
             <br />
             <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='support'>
                <hr />
@@ -126,21 +140,6 @@ function Internals({ }: Props) {
 
             </div>
 
-            <br />
-            <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='settings'>
-               <hr />
-               <h1 className=''>
-                  Settings
-               </h1>
-               <h4 className=''>
-                  Admin Controls
-               </h4>
-               <p className='w-4/5'>
-                  Admin Wallet will have access to these Functions on the Blockchain back-end.</p>
-               <small className='pl-5 text-gray-400 text-xs'>*add admin image</small>
-               <br />
-
-            </div>
          </div>
       </div>
    )

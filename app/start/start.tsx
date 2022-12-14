@@ -1,4 +1,7 @@
 import React from 'react'
+import Video_01 from '../user/video_01'
+import Video_02 from '../user/video_02'
+import Video_03 from '../user/video_03'
 // import Video_01 from '../user/video_01'
 import Feat from './feat'
 import IndieCard from './indieCard'
@@ -23,8 +26,7 @@ function Started({}: Props) {
                      It is a Lottery Draw developed on the Blockchain. You may buy up to 10 tickets to enter the draw. One random ticket will be notified of winning! They may withdraw immediately. It is a game whose victory or failure is lead by probability.
                   </p>
                    <br />
-                   <p className='reminder'>Add How-To video</p>
-                   {/* <Video_01 /> */}
+                   <Video_01 />
                   <br/>
                   <hr />
                   
@@ -65,9 +67,11 @@ function Started({}: Props) {
                   </h4>
                   <p className='w-4/5'>
                   Watch the video before you visit the link. <br/> Follow this link to create a new Web3 Wallet. </p>
-
-                  <button className='dark'>Click here</button>
-                  <p className='reminder'>Add How-To video</p>
+                  <Video_02 />
+                  <br />
+                  
+                  <a href="https://metamask.io/download/" target="_blank">
+                  <button className='dark'>Click here</button></a>
                   </div>
 
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='matic'>
@@ -77,8 +81,10 @@ function Started({}: Props) {
                   </h4>
                   <p className='w-4/5'>
                   Watch the video before you visit the link. <br/> Click here to get Free Matic. </p>
-                  <button className='dark'>Click here</button>
-                  <p className='reminder'>Add How-To video</p>
+                  <Video_03 />
+                  <br />
+                  <a href="https://mumbaifaucet.com/" target="_blank">
+                  <button className='dark'>Click here</button></a>
 
                   </div>
                   

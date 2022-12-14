@@ -5,7 +5,7 @@ type Props = {}
 export default function Feat({}: Props) {
   return (
     <div>
-        <div className="bg-gray-800 text-gray-200 rounded-lg shadow-md">
+        <div className="bg-gray-900 text-gray-200 rounded-lg shadow-md">
             <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="max-w-3xl mx-auto text-center">
                     <h2 className="mb-3 text-xl font-bold leading-none text-center sm:text-2xl dark:text-gray-200">Our main features</h2>
