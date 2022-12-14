@@ -77,7 +77,7 @@ function Started({}: Props) {
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='matic'>
                   <hr />
                   <h4 className=''>
-                     Free Matic
+                     Free Matic XXX
                   </h4>
                   <p className='w-4/5'>
                   Watch the video before you visit the link. <br/> Click here to get Free Matic. </p>
