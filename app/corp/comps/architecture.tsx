@@ -4,15 +4,10 @@ import SimpleImageSlider from "react-simple-image-slider";
 
 type Props = {}
 
-export default function Individual({}: Props) {
+export default function Architecture({}: Props) {
     const images = [
-        { url: "/wode_1a.png" },
-        { url: "/wode_1b.png" },
-        { url: "/wode_2a.png" },
-        { url: "/wode_2b.png" },
-        { url: "/wode_3a.png" },
-        { url: "/wode_3b.png" },
-        { url: "/wode_3c.png" },
+        { url: "/arch_02.png" },
+        { url: "/arch_01.png" },
         { url: "/indie_arch.png" },
       ];
   return (

@@ -1,5 +1,6 @@
 import React from 'react'
 import Banner01 from './banner01'
+import Architecture from './comps/architecture'
 import Hero01 from './hero01'
 import Tabs from './tabs'
 import TroubleList from './troubleList'
@@ -63,6 +64,12 @@ function Corpo({}: Props) {
                      </div>
                   </div>
                   
+                  </div>
+                  <br />
+                  <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='architecture'>
+                  <hr />
+                     {/* <Architecture /> */}
+                     <p>Architecture comes here</p>
                   </div>
                   <br />
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='whitelabel'>
