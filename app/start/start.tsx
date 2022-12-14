@@ -71,7 +71,7 @@ function Started({}: Props) {
                   <br />
                   
                   <a href="https://metamask.io/download/" target="_blank">
-                  <button className='dark'>Click here</button></a>
+                  <button className='dark'>Create Wallet</button></a>
                   </div>
 
                   <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='matic'>
@@ -84,7 +84,7 @@ function Started({}: Props) {
                   <Video_03 />
                   <br />
                   <a href="https://mumbaifaucet.com/" target="_blank">
-                  <button className='dark'>Click here</button></a>
+                  <button className='dark'>Collect Matic</button></a>
 
                   </div>
                   
