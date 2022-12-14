@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import { useState } from 'react';
+import Archi from './comps/architecture';
 import Business from './comps/business';
 import Group from './comps/group';
 import Individual from './comps/individual';
@@ -81,6 +82,28 @@ export default function Tabs({ }: Props) {
                               }}
                         >Groups</a>
                     </li>
+                    <li className="nav-item flex-grow text-center" role="presentation">
+                        <a href="#tabs-groupVertical" className="
+          nav-link
+          block
+          font-medium
+          text-xs
+          leading-tight
+          uppercase
+          border-x-0 border-t-0 border-b-2 border-transparent
+          px-6
+          py-3
+          my-2
+          hover:border-transparent hover:bg-gray-100
+          focus:border-transparent
+        " id="tabs-messages-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-archiVertical" role="tab"
+                            aria-controls="tabs-archiVertical" aria-selected="true"
+                            onClick={(event) => {
+                                event.preventDefault();
+                                setActiveTab('tabs-archiVertical');
+                              }}
+                        >Diagrams</a>
+                    </li>
                 </ul>
                 <div className="tab-content" id="tabs-tabContentVertical">
                     <div className="tab-pane fade show active" id="tabs-indiVertical" role="tabpanel"
@@ -99,6 +122,12 @@ export default function Tabs({ }: Props) {
                         style={{ display: activeTab === 'tabs-groupVertical' ? 'block' : 'none' }}>
                         <h4>Group content vertical</h4>
                         <Group />
+                    </div>
+                    <div className="tab-pane fade" id="tabs-archiVertical" role="tabpanel"
+                        aria-labelledby="tabs-archi-tabVertical"
+                        style={{ display: activeTab === 'tabs-archiVertical' ? 'block' : 'none' }}>
+                        <h4>Web Architecture</h4>
+                        <Archi />
                     </div>
                 </div>
             </div>

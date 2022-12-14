@@ -13,7 +13,6 @@ export default function Individual({}: Props) {
         { url: "/wode_3a.png" },
         { url: "/wode_3b.png" },
         { url: "/wode_3c.png" },
-        { url: "/indie_arch.png" },
       ];
   return (
     <div>
