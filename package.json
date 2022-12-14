@@ -10,14 +10,12 @@
     "next": "latest",
     "react": "^18.3.0-next-4dda96a40-20221213",
     "react-copy-to-clipboard": "^5.1.0",
-    "react-dom": "^18.3.0-next-4dda96a40-20221213",
     "react-simple-image-slider": "^2.4.1"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "@types/react-copy-to-clipboard": "^5.0.4",
-    "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.18",
     "prettier": "^2.8.0",
