@@ -120,7 +120,7 @@ function Internals({ }: Props) {
                   Admin Controls
                </h4>
                <p className='w-4/5'>
-                  Admin Wallet will have access to these Functions on the Blockchain back-end.</p>
+                  The Admin Wallet will have access to these functions on the blockchain back-end.</p>
                   <img src="/admin.png" alt="admin" className='rounded-lg ml-3 my-5 h-48 shadow-lg' />
             </div>  
             <br />
