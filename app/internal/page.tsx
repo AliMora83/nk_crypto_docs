@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import Navmenu from '../navmenu'
 import BannerInt from './bannerInt'

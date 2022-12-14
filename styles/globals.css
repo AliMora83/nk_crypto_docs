@@ -101,5 +101,12 @@
     .code-container {
     @apply border border-gray-400 p-10 text-sm text-red-600
     }
+
+    .copy{
+        @apply bg-[#585859] px-2 py-1 rounded-md text-gray-300 text-xs
+    }
+    .copied{
+       @apply bg-[#caa969] px-2 py-1 rounded-md text-gray-800 text-xs
+   }
     
 }
