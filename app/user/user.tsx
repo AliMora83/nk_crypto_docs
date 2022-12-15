@@ -25,7 +25,7 @@ function Users({ }: Props) {
             <hr />
             <h4 className=''>User personas</h4>
             <p className='w-4/5'>The purpose is to help Individuals, Organisations, and Groups, to host their own Crypto Draw Events to raise funds independantly.
-              It can be set to select a winner every 5 mins, 1 hour, 1 day, once a week or once a month. Communities and NPO's may apply directly to you to fund their projects.</p>
+              It can be set to select a winner every 5 mins, 1 hour, 1 day, once a week or once a month. Communities and NPO's may apply directly to the Host to fund their projects.</p>
             <br />
 
             <div className='grid grid-cols-2 items-center'>
@@ -35,7 +35,7 @@ function Users({ }: Props) {
             <br />
             <h2>Ideal Individual User Persona</h2>
             <p className='w-4/5'>
-               Our Ideal Individual User Persona <strong className='font-semibold'>knows and understands Web3</strong>. They know about blockchain and all the <strong className='font-semibold'> opportinties it has to offer.</strong> We want to help these creators achieve thier goals by funding them, and thier own communities or NPO's, <strong className='font-semibold'> by making use of your Web3 Platform.</strong></p>
+               Our Ideal Individual User Persona <strong className='font-semibold'>knows and understands Web3</strong>. They know about blockchain and all the <strong className='font-semibold'> opportinties it has to offer.</strong> We want to help these creators achieve thier goals by funding them, and thier own communities/NPO's, <strong className='font-semibold'> by making use of your Web3 Platform.</strong></p>
             <p className='w-4/5'>
                Our IIUP must have an <strong className='font-semibold'>respectable online following</strong> while consistently creating quality, safe (not-get-banned-friendly), content. They will take a few minutes in thier <strong className='font-semibold'>video to talk about the Crypto Draw</strong> and where to find the links.</p>
             <br />
@@ -46,7 +46,12 @@ function Users({ }: Props) {
             <p className='w-4/5'>
                They will be able to <strong className='font-semibold'>buy up to 10 tickets per Draw.</strong> This user will then patiently wait for the Draw to end. A <strong className='font-semibold'>Winning Banner</strong> will appear on your screen when you win!</p>
             <p className='w-4/5'>
+           
                The user will then withdraw the crypto with <strong className='font-semibold'>just one click.</strong> <br/> They are now able to play again for Free or enter the Real Draw,<strong className='font-semibold'> with Real Currency.</strong></p>
+            <p className='w-4/5 text-xs text-gray-800 italic'>
+               *Please watch the video to see the ideal user flow.
+            </p>
+
          </div>
 
          <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto mt-20" id='faq'>
