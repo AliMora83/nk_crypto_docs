@@ -135,7 +135,6 @@ function Internals({ }: Props) {
                <p className='w-4/5'>
                   Our contact details and where to look for more information or assistance.</p>
                <Contact01 />
-               <small className='pl-5 text-gray-400 text-xs'>*add Contact card</small>
                <br />
 
             </div>

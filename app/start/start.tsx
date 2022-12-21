@@ -50,7 +50,7 @@ function Started({}: Props) {
                   </div>
 
                    <br />
-                   {/* <Video_01 /> */}
+                   <Video_01 />
                   <br/>
                   <hr />
                   
@@ -91,7 +91,7 @@ function Started({}: Props) {
                   </h4>
                   <p className='w-4/5'>
                   Watch the video before you visit the link. <br/> Click the button to create a new Web3 Wallet. </p>
-                  {/* <Video_02 /> */}
+                  <Video_02 />
                   <br />
                   
                   <a href="https://metamask.io/download/" target="_blank">
@@ -105,7 +105,7 @@ function Started({}: Props) {
                   </h4>
                   <p className='w-4/5'>
                   Watch the video before you visit the link. <br/> Click the button to get Free Matic. </p>
-                  {/* <Video_03 /> */}
+                  <Video_03 />
                   <br />
                   <a href="https://mumbaifaucet.com/" target="_blank">
                   <button className='dark'>Collect Matic</button></a>

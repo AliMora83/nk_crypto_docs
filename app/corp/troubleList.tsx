@@ -21,14 +21,14 @@ export default function TroubleList({}: Props) {
                 <summary className="py-2 outline-none cursor-pointer">
                   My signal is weak?</summary>
                 <div className="px-4 pb-4">
-                  <p className='text-sm text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aspernatur quae, eos explicabo odit minima libero veniam similique quibusdam doloribus facilis ipsa accusantium vel maiores corrupti! Libero voluptate a doloribus?</p>
+                  <p className='text-sm text-gray-400'>Better and more accurate questions and answers will be added here. Do send me any suggestions you may have.</p>
                 </div>
               </details>
               <details>
                 <summary className="py-2 outline-none cursor-pointer">The button does not work?</summary>
                 <div className="px-4 pb-4 space-y-2">
-                  <p className='text-sm text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates aspernatur dolores in consequatur doloremque inventore reprehenderit, consequuntur perspiciatis architecto.</p>
-                  <p className='text-sm text-gray-400'>Sed consectetur quod tenetur! Voluptatibus culpa incidunt veritatis velit quasi cupiditate unde eaque! Iure, voluptatibus autem eaque unde possimus quae.</p>
+                  <p className='text-sm text-gray-400'>Better and more accurate questions and answers will be added here. Do send me any suggestions you may have.</p>
+                  <p className='text-sm text-gray-400'>Better and more accurate questions and answers will be added here. Do send me any suggestions you may have.</p>
                 </div>
               </details>
             </div>

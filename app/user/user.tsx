@@ -9,7 +9,7 @@ type Props = {}
 function Users({ }: Props) {
    return (
       <div className='mb-10'>
-         <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto space-y-2" id='how'>
+         <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto space-y-2" id='who'>
             <p className='mb-2 text-sm pt-16 text-[#caa969] 
         font-light tracking-wider uppercase '>
                <span className='font-bold text-[#caa969]'>02.</span> User Guide</p>
@@ -21,7 +21,7 @@ function Users({ }: Props) {
             <p className='w-4/5'>This software will allow you to have your own lottery draw. White-label means we will customise the platform to your brand. Now that we know what it can do, here is a look at our ideal partner profile.</p>
             <Table01 />
          </div>
-         <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto mt-10" id='faq'>
+         <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto mt-10" id='user'>
             <hr />
             <h4 className=''>User personas</h4>
             <p className='w-4/5'>The purpose is to help Individuals, Organisations, and Groups, to host their own Crypto Draw Events to raise funds independantly.
@@ -58,9 +58,7 @@ function Users({ }: Props) {
             <FAQ />
          </div>
          <br />
-         <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto" id='features'>
 
-         </div>
       </div>
    )
 }
